@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "flow": "flow",
-    "flow-typed": "flow-typed"
+    "flow": "flow check",
+    "flow-typed": "flow-typed",
+    "start": "babel-node index.js"
   },
   "keywords": [],
   "author": "",
