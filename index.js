@@ -1,8 +1,15 @@
 // @flow
-function multiply (x, y) {
-  return x * y
+
+type User = {
+  name: string,
+  country: string,
+  age: number
 }
 
-const result = multiply(1, 2)
+const julio: User = {
+  name: 'Julio Antúnez Tarín',
+  country: 'Spain',
+  age: 44
+}
 
-console.log(result)
+console.log(julio.name)
