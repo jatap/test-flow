@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+# IDE's
+.idea/
+nbproject
+.project
+.redcar
+*.sublime-*
+*.iml
+
+# Other
+.tmp
+.DS_Store
+.npm_install_log
+npm-debug.log
