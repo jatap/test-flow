@@ -11,5 +11,8 @@
     "flowtype": {
       "onlyFilesWithFlowAnnotation": false
     }
+  },
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": 0
   }
 }

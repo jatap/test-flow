@@ -9,6 +9,10 @@ nbproject
 *.sublime-*
 *.iml
 
+# Dist
+lib/
+flow-typed/
+
 # Other
 .tmp
 .DS_Store
