@@ -1,12 +1,7 @@
 // @flow
 
-type User = {
-  name: string,
-  country: string,
-  age: number
-}
-
-type Users = Array<User>
+import type { User } from './type/User'
+import type { Users } from './type/Users'
 
 const john: User = {
   name: 'John Doe',
