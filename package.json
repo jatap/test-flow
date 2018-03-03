@@ -7,7 +7,7 @@
     "flow": "flow",
     "flow:check": "flow check ./src/",
     "flow:deps": "flow-typed install",
-    "format": "prettier-eslint 'src/**/*.js'",
+    "format": "prettier-eslint --write 'src/**/*.js'",
     "lint": "eslint 'src/**/*.js'",
     "lint:fix": "npm-run-all lint -- --fix",
     "build": "babel src/ -d lib/",
