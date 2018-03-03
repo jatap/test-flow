@@ -1,5 +1,5 @@
-import type { User } from './type/User'
-import type { Users } from './type/Users'
+import type { User } from './type/User.type'
+import type { Users } from './type/Users.type'
 
 import min from 'lodash/min'
 
