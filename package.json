@@ -9,7 +9,8 @@
     "flow:deps": "flow-typed install",
     "lint": "eslint src/**/*.js",
     "build": "babel src/ -d lib/",
-    "start": "babel-node src/index.js"
+    "start": "babel-node src/index.js",
+    "postinstall": "npm-run-all flow:deps"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +30,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "flow-bin": "^0.66.0",
     "flow-typed": "^2.3.0",
+    "npm-run-all": "^4.1.2",
     "prettier-eslint": "^8.8.1"
   },
   "dependencies": {
