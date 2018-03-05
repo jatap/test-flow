@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "flow": "flow",
-    "flow:check": "flow check ./src/",
+    "flow:check": "flow check",
     "flow:deps": "flow-typed install",
     "format": "prettier-eslint --write 'src/**/*.js'",
     "lint": "eslint 'src/**/*.js'",
